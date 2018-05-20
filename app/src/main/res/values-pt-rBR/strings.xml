@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AzureM</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou Cadastrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Este email não é valido</string>
+    <string name="error_invalid_password">Esta senha é muito curta</string>
+    <string name="error_incorrect_password">Esta senha está errada</string>
+    <string name="error_field_required">Este Campo é obrigatorio</string>
+    <string name="title_activity_main">Menu Principal</string>
+    <string name="title_home">Tela de cadastro</string>
+    <string name="title_dashboard">Detalhes</string>
+    <string name="title_notifications">Sobre</string>
+    <string name="permission_rationale">Permissão as seus contatos é necessario</string>
+    <string name="welcome_msg">Bem vindo !!!</string>
+</resources>

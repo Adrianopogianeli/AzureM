@@ -23,6 +23,8 @@ import android.widget.TextView
 
 import java.util.ArrayList
 import android.Manifest.permission.READ_CONTACTS
+import android.content.Intent
+import br.fiap.apogianeli.azurem.MainActivity
 
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -138,6 +140,13 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
             showProgress(true)
             mAuthTask = UserLoginTask(emailStr, passwordStr)
             mAuthTask!!.execute(null as Void?)
+
+            // go to main menu
+            val intentDetalhe = Intent(this,MainActivity::class.java)
+
+            //intentDetalhe.putExtra("jogo", it)
+
+            startActivity(intentDetalhe)
         }
     }
 
